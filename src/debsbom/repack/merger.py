@@ -185,6 +185,7 @@ class SourceArchiveMerger:
                 "--force-local",
                 "--format=gnu",
                 "--sort=name",
+                "--mode=755",
                 "--owner=0",
                 "--group=0",
                 "--numeric-owner",
